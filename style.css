@@ -1,0 +1,194 @@
+body{
+    background-image: url(./img/vampiro.jpg);
+    background-size: cover;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(247, 86, 28);
+}
+.primera-seccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.H{
+    font-size: 50px;
+    -webkit-text-stroke: 1px white;
+    position: absolute;
+    margin-top: 130px;
+}
+.fiesta{
+    margin-top: 1px;
+    color: rgb(247, 86, 28);
+    position: absolute;
+    z-index: 2;
+    margin-top: 45px;
+}
+.lista{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    color: rgb(185, 28, 247);
+    font-family: 'Luckiest Guy', cursive;
+    margin-top: 45px;
+    
+}
+.lista a:link{
+    text-decoration: none;
+    color: rgb(247, 86, 28);
+    font-size: 20px;
+    -webkit-text-stroke: 1px white;
+    
+}
+.lista li:first-child > a{
+    color: white;
+    -webkit-text-stroke: 1px rgb(247, 86, 28);
+} 
+.comprar{
+    display: flex;
+    align-items: center;
+}
+.calabaza{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 430px;
+    margin-right: 20px;
+}
+.cala{
+    width: 60%;
+}
+.comprar h1{
+    font-size: 240px;
+    margin-top: 85px;
+}
+.comprar p{
+    margin-bottom: 180px;
+}
+.boton{
+    margin-bottom: 300px;
+    background-color: rgb(247, 86, 28);
+    border: none;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    font-size: 20px;
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    margin-left: 40%;
+}
+.boton a{
+    text-decoration: none;
+    color:white
+}
+.boton:hover{
+    transform: scale(1.5,1.5);
+    transition: 2s;
+    background-color: rgb(168, 60, 168);
+}
+.comprar h1:hover{
+    transform:rotate(360deg);
+    transition: 3s;
+}
+.informacion h2{
+    display: flex;
+    margin-top: 250px;
+    margin-left: 500px;
+    font-size: 40px;
+    color: rgb(247, 86, 28);
+    -webkit-text-stroke: 1px white;
+}
+.cartas{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 100px;
+}
+.cocteles,
+.golosinas,
+.fantasma,
+.actividades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(161,53,129,1) 39%, rgba(242,160,27,1) 80%);
+    border-radius: 1rem;
+    border: none;
+    height: 350px;
+    width: 250px;
+    font-size: 25px;
+    color: white;
+    font-size: 25px;
+}
+.golosinas p{
+    margin-left: 40px;
+}
+.cocteles:hover{
+    transform:translate(0,-20px);
+    transition: 1s;
+}
+.golosinas:hover{
+    transform:translate(0,-20px);
+    transition: 1s;
+}
+.fantasma:hover{
+    transform:translate(0,-20px);
+    transition: 1s;
+}
+.actividades:hover{
+    transform:translate(0,-20px);
+    transition: 1s;
+}
+.ubicacion{
+    margin-top: 10%;
+    margin-left: 75%;
+}
+div h3{
+    margin-left: 25px;
+    -webkit-text-stroke: 0.5px white;
+
+}
+div iframe{
+    margin-bottom: 30%;
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 18px;
+}
+.contacto a{
+    text-decoration: none;
+    color: white;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 50px;
+    margin-bottom: 5%;    
+
+}
+.face,
+.ins,
+.you{
+    width: 60px;
+    
+}
+.face:hover{
+    transform:rotate(360deg);
+    transition: 3s;
+}
+.ins:hover{
+    transform:rotate(360deg);
+    transition: 3s;
+}
+.you:hover{
+    transform:rotate(360deg);
+    transition: 3s;
+}
